@@ -1,8 +1,21 @@
+.ncards-container {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
 .ncard {
     border: 1px solid tomato;
     width: 300px;
     padding: 15px;
     border-radius: 8px;
+    transition: scale ease 0.3s;
+}
+
+.ncard:hover {
+    scale: 1.07;
 }
 
 .ncard-header {
